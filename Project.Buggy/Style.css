@@ -1,0 +1,1002 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    height: 1100px;
+    background: linear-gradient(to right, rgb(215, 215, 235),rgba(255, 192, 203, 0.226));
+}
+.CRIPTIC{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+}
+.CRIPTIC a{
+    color: black;
+    text-decoration: none;
+}
+.middle{
+    display: flex;
+    gap: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.middle li{
+    list-style-type: none;
+}
+.nft{
+    color: rgba(0, 0, 0, 0.589);
+}
+.Purchase{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.Purchase:hover{
+    animation: Purchase 0.6s ease;
+}
+@keyframes Purchase {
+    from {
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
+.fasolid{
+    display: none;
+}
+.Buy{
+    text-align: center;
+    padding: 50px;
+}
+.sell{
+    color: rgba(255, 0, 0, 0.601);
+    padding: 0px;
+    font-size: 40px;
+}
+.cross{
+    height: 4px;
+    width: 300px; 
+    position: absolute;
+    left: 540px;
+    align-items: center;
+    background: linear-gradient(to right,rgba(128, 0, 128, 0.774), rgba(255, 0, 0, 0.658) );
+}
+.cross1{
+    height: 4px;
+    width: 280px; 
+    position: absolute;
+    top: 161.5px;
+    left: 550px;
+    align-items: center;
+    background: linear-gradient(to right,rgba(128, 0, 128, 0.774), rgba(255, 0, 0, 0.658) );
+}
+.in{
+    color: black;
+    font-size: 42px;
+    margin-top: 15px;
+}
+.cameron{
+    background: url(IMAGE/general.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.modern{
+    background: linear-gradient(rgba(215, 215, 235));
+    height: 700px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.tech{
+    color:orangered;
+    font-size: 30px;
+    font-style: italic;
+}
+.build{
+    font-size: 50px;
+}
+.rich{
+    color: rgba(0, 0, 0, 0.67);
+}
+.tail{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    height: 150px;
+    position: absolute;
+    left: 350px;
+    top: 1400px;
+}
+.jotai{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    height: 150px;
+    position: absolute;
+    left: 500px;
+    top: 1550px;
+}
+/* .demosretro{
+    background: rgb(215, 215, 235);
+    height: 4500px;
+} */
+.Demos{
+    text-align: center;
+    font-size: 25px;
+    padding: 70px;
+}
+.retro{
+ border: 0px red solid;
+ width: 90%;
+ margin: auto;
+ height: 4300px;
+}
+.row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.one{
+    background: url(IMAGE/111.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.one {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .one img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .one::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .one:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.two{
+    background: url(IMAGE/222.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.two {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .two img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .two::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .two:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.row2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 100px;
+}
+.three{
+    background: url(IMAGE/333.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.three {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .three img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .three::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .three:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.four{
+    background: url(IMAGE/444.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.four {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .four img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .four::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .four:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.row3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 100px;
+}
+.five{
+    background: url(IMAGE/five5.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.five {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .five img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .five::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .five:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.six{
+    background: url(IMAGE/six6.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.six {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .six img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .six::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .six:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.row4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 100px;
+}
+.seven{
+    background: url(IMAGE/555.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.seven {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .seven img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .seven::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .seven:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.eight{
+    background: url(IMAGE/666.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.eight {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .eight img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .eight::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .eight:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.row5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 100px;
+}
+.nine{
+    background: url(IMAGE/777.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.nine {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .nine img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .nine::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .nine:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.ten{
+    background: url(IMAGE/888.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.ten {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .ten img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .ten::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .ten:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.row6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 100px;
+}
+.eleven{
+    background: url(IMAGE/999.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.eleven {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .eleven img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .eleven::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .eleven:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.twelve{
+    background: url(IMAGE/100.png);
+    height: 420px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.twelve {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .twelve img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .twelve::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .twelve:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.row7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 100px;
+    row-gap: 100px;
+    position: relative;
+}
+.thirteen{
+    background: url(IMAGE/thir13.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+    .thirteen{
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+    .thirteen img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .thirteen::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .thirteen:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.fourteen{
+    background: url(IMAGE/farm.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.fourteen {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .fourteen img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .fourteen::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .fourteen:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.fifteen{
+    background: url(IMAGE/fifteen.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.fifteen {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+
+    .fifteen img {
+      display: block;
+      width: 300px;
+      height: auto;
+    }
+
+    /* Overlay effect */
+    .fifteen::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0); /* invisible at first */
+      transition: background 0.3s;
+    }
+
+    .fifteen:hover::after {
+      background: rgba(0, 0, 0, 0.4); /* light black overlay */
+    }
+.modern11{
+    text-align: center;
+    margin-top: 20px;
+}
+.minimal1{
+    text-align: center;
+    margin-top: 20px;
+}
+.retrol{
+    text-align: center;
+    margin-top: 20px;
+}
+.classic{
+    text-align: center;
+    margin-top: 20px;
+}
+.nft1{
+    text-align: center;
+    margin-top: 20px;
+}
+.tracker1{
+    text-align: center;
+    margin-top: 20px;
+}  
+.filtering1{
+    text-align: center;
+    margin-top: 20px;
+}
+.details1{
+    text-align: center;
+    margin-top: 20px;
+}
+.tse{
+    text-align: center;
+    margin-top: 20px;
+}
+.liquidity{
+    text-align: center;
+    margin-top: 20px;
+}
+.voting1{
+    text-align: center;
+    margin-top: 20px;
+}
+.sals1{
+    text-align: center;
+    margin-top: 20px;
+}
+.cp1{
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 470px;
+    left: 250px;
+}
+.fpp1{
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 470px;
+    left: 950px;
+}
+.cnft{
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: -20px;
+    left: 200px;
+}
+.darkmode{
+    background: linear-gradient(to right, rgb(215, 215, 235),rgba(255, 192, 203, 0.226));
+    height: 1100px;
+    padding: 0px;
+}
+.ode{
+    color: orangered;
+    font-style: italic;
+}
+.whbd{
+    font-size: 33px;
+}
+.odeO{
+    text-align: center;
+    padding: 100px;
+}
+.witch{
+    color: rgba(0, 0, 0, 0.406);
+}
+.etherum1{
+    background: url(IMAGE/etherum.png);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dao11{
+    color: orangered;
+    font-size: 17px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.daoweb{
+    text-align: center;
+    padding: 70px;
+}
+.dotdot{
+    background: url(IMAGE/dotdot.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.actv{
+    color: orangered;
+    font-style: italic;
+}
+.dotdot1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+.ongoing1{
+        padding: 100px;
+}
+.lit1{
+    font-size: 45px;
+}
+.youcan{
+    color: rgba(0, 0, 0, 0.557);
+    font-size: 20px;
+}
+.but2{
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border: black solid 2px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.but2:hover{
+    animation: but2 0.6s ease;
+}
+@keyframes but2 {
+    from {
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
+.propro33{
+    color: orangered;
+    font-style: italic;
+}
+.makeidea{
+    font-size: 30px;
+}
+.havethe{
+    color: rgba(0, 0, 0, 0.604);
+    font-size: 17px;
+
+}
+.proposal100{
+    background: url(IMAGE/propoal.png);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.proposalgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -30px;
+}
+.crecrek{
+    padding: 110px;
+}
+.buysell{
+    background: url(IMAGE/casting.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.Creation101{
+    position: absolute;
+    left: 60px;   
+}
+.voteing1{
+    color: orangered;
+    font-style: italic;
+}
+.casting100{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+.fullcra{
+    font-size: 42px;
+}
+.webp{
+    color: rgba(0, 0, 0, 0.637);
+}
+.fulldemo{
+    margin-left: 30px;
+    padding: 110px;
+}
+.but4{
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border: black solid 2px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.but4:hover{
+    animation: but4 0.6s ease;
+}
+@keyframes but4 {
+    from {
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
+.but3{
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border: black solid 2px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.but3:hover{
+    animation: but3 0.6s ease;
+}
+@keyframes but3 {
+    from {
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
+.capmans{
+    color: orangered;
+    font-size: 20px;
+    font-style: italic;
+}
+.basicnft{
+    color: black;
+}
+.makeyour{
+    color: rgba(0, 0, 0, 0.555);
+    font-size: 20px;
+}
+.capman{
+    text-align: center;
+    padding: 100px;
+}
+.capmanpic{
+    background: url(IMAGE/capman.png);
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width:768px) {
+ .middle{
+    display: none;
+ }
+ .but{
+    display: none;
+ }
+ .fasolid{
+    display: block;
+ }   
+}
